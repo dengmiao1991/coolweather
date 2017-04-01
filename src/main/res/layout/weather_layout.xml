@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#484e61"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/switch_cityTv"
+            android:text="切换城市"
+            android:textColor="#ffffff"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/titleTv"
+            android:text="北京"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/refrashTv"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:text="刷新"/>
+    </RelativeLayout>
+
+        <TextView
+            android:id="@+id/publishTimeTv"
+            android:layout_width="wrap_content"
+            android:text="发布时间"
+            android:textSize="18sp"
+            android:layout_gravity="right"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:id="@+id/weatherinfo_layout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+       android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_height="100dp"
+        >
+      <TextView
+          android:id="@+id/timeTv"
+          android:textSize="18sp"
+          android:text="2017.03.22"
+          android:layout_gravity="center_horizontal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/weatherTv"
+            android:text="阴转小雨"
+            android:textSize="24sp"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tmpTv"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="24sp"
+            android:text="4c"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

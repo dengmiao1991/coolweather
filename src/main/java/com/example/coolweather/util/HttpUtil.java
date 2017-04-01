@@ -33,7 +33,7 @@ public class HttpUtil {
                          sb.append(line);
                      }
                      if (listener!=null){
-                         listener.onFinish(sb.toString());
+                      listener.onFinish(sb.toString());
                      }
                  } catch (IOException e) {
                     if(listener!=null){
